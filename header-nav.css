@@ -1,10 +1,6 @@
-.top {
+.header-nav__container {
   grid-column-end: span 2;
   background: salmon;
-  color: white;
-  font-style: italic;
-  font-family: sans-serif;
-  font-weight: bold;
 
   display: grid;
   grid-template-columns: 228px 1fr 150px 1fr 228px;

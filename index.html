@@ -7,14 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zelda Inventory</title>
   <link rel="stylesheet" href="zelda.css">
-  <link rel="stylesheet" href="top-section.css">
+  <link rel="stylesheet" href="header-nav.css">
+  <link rel="stylesheet" href="inventory-nav.css">
 </head>
 
 <body>
   <video src="reference/wolfbait.mp4#t=4"></video>
 
   <div class="container">
-    <div class="top">
+    <nav class="header-nav__container">
       <div class="hearts">
         <div class="heart"></div>
         <div class="heart"></div>
@@ -34,8 +35,23 @@
       <div class="screen-title">Inventory</div>
       <div class="right-button">System</div>
       <div class="rupees">292</div>
+    </nav>
+
+    <div class="inventory__container">
+      <div class="inventory-nav">
+        <div class="inventory-nav__categories">
+          <div class="inventory-nav__category-title">Armor</div>
+
+          <div class="inventory-nav__category-icon melee-weapons"></div>
+          <div class="inventory-nav__category-icon bows"></div>
+          <div class="inventory-nav__category-icon shields"></div>
+          <div class="inventory-nav__category-icon armor"></div>
+          <div class="inventory-nav__category-icon ingredients"></div>
+          <div class="inventory-nav__category-icon meals"></div>
+          <div class="inventory-nav__category-icon special"></div>
+        </div>
+      </div>
     </div>
-    <div class="left"></div>
     <div class="right"></div>
     <div class="bottom"></div>
   </div>
