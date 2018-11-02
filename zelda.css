@@ -2,8 +2,9 @@ video {
   position: absolute;
   height: 600px;
   z-index: 10;
+  opacity: .05;
+  /* This prevents fuckery when trying to inspect element */
   pointer-events: none;
-  opacity: .3;
 }
 
 body {
@@ -27,19 +28,19 @@ body * {
 }
 
 .top {
-  background: purple;
+  background: salmon;
   grid-column-end: span 2;
 }
 
 .left {
-  background: green;
+  background: darksalmon;
 }
 
 .right {
-  background: orangered;
+  background: lightsalmon;
 }
 
 .bottom {
-  background: blue;
+  background: salmon;
   grid-column-end: span 2;
 }
