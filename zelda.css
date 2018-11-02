@@ -2,7 +2,7 @@ video {
   position: absolute;
   height: 600px;
   z-index: 10;
-  opacity: .05;
+  opacity: .1;
   /* This prevents fuckery when trying to inspect element */
   pointer-events: none;
 }
@@ -25,11 +25,6 @@ body * {
   display: grid;
   grid-template-columns: 550px 1fr;
   grid-template-rows: 86px 1fr 58px;
-}
-
-.top {
-  background: salmon;
-  grid-column-end: span 2;
 }
 
 .left {
